@@ -13,9 +13,14 @@ dependencies such as Node or global NPM installs.
 ## Installation
 Get the latest executable from the releases.
 
-Add `awsd` and `awsd.sh` to your path `/usr/local/bin` and add the following alias to your bash profile
+Move both `awsd.sh` and `_awsd` to your `/Users/<insert-user-profile>/.local/bin` path.
 
-`alias awsd="source awsd.sh"`
+Add the following alias to your bash profile `alias awsd="source awsd.sh"`
+
+## Building from source
+Clone down this repository and run `make build` 
+
+Move both `awsd.sh` and `_awsd` to your `/Users/<insert-user-profile>/.local/bin` path.
 
 *note:* **This tool has been written on macOS and its intended use is for macOS. I am fairly certain it will not work on 
 Linux or Windows however I welcome any contributions to make it so.**
